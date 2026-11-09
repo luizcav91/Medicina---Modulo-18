@@ -957,9 +957,9 @@ document.addEventListener('keydown', e => { if (e.key !== 'Escape') return; if (
 
 /* ---------------- Aulas em vídeo ---------------- */
 const AULAS = {
-  c1: ['videos/aula01.mp4', 242], c2: ['videos/aula02.mp4', 132], c3: ['videos/aula03.mp4', 144], c4: ['videos/aula04.mp4', 159],
-  c5: ['videos/aula05.mp4', 216], c6: ['videos/aula06.mp4', 231], c7: ['videos/aula07.mp4', 202], c8: ['videos/aula08.mp4', 259],
-  c9: ['videos/aula09.mp4', 227], c10: ['videos/aula10.mp4', 149], c11: ['videos/aula11.mp4', 156]
+  c1: ['aula01.mp4', 242], c2: ['aula02.mp4', 132], c3: ['aula03.mp4', 144], c4: ['aula04.mp4', 159],
+  c5: ['aula05.mp4', 216], c6: ['aula06.mp4', 231], c7: ['aula07.mp4', 202], c8: ['aula08.mp4', 259],
+  c9: ['aula09.mp4', 227], c10: ['aula10.mp4', 149], c11: ['aula11.mp4', 156]
 };
 const dur = s => `${Math.floor(s / 60)} min${s % 60 ? ' ' + (s % 60) + ' s' : ''}`;
 const aulaOk = id => !!(S.aulas[id] && S.aulas[id].ok);
